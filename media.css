@@ -319,6 +319,10 @@
     body {
         font-size: 40pt;
     }
+
+    .form {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
