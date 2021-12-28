@@ -12,6 +12,7 @@ body {
 
 input {
     color: blue;
+    border: 1px solid red;
 }
 
 .narrow, .medium, .wide {
