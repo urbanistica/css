@@ -40,7 +40,7 @@ header h1 {
 }
 
 header .logo {
-    background-image: url("/assets/img/logo.svg");
+    background-image: url("https://urbanistica.github.io/css/assets/img/logo.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left top; 

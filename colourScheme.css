@@ -8,8 +8,8 @@
     --header-h1 : #1C91D9;
     --header-greeting-p : #500D66;
     --body-background: #DAE0E0;
-    --header-bgnd-image: url("/assets/img/backgroundGradient.png");
-    --background-overlay : url("/assets/img/backgroundHandAndBoard.png");
+    --header-bgnd-image: url("https://urbanistica.github.io/css/assets/img/backgroundGradient.png");
+    --background-overlay : url("https://urbanistica.github.io/css/assets/img/backgroundHandAndBoard.png");
     --header-hx : #D91C1C;
 }
 
