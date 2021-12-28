@@ -338,6 +338,10 @@
         padding-top: 1em;
         z-index: 1000;
     }
+
+    .form {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (-webkit-device-pixel-ratio: 2) {
@@ -352,6 +356,10 @@
 
     header h1 {
         font-size: 3em;
+    }
+
+    .form {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
