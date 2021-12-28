@@ -1,0 +1,44 @@
+:root {
+    --default : #238533;
+    --kicker-p : #eed814;
+    --body-p : #474747;
+    --logo-p : #D31B96;
+    --logo-p-light : white;
+    --section-h4 : #2443cf;
+    --header-h1 : #1C91D9;
+    --header-greeting-p : #500D66;
+    --body-background: #DAE0E0;
+    --header-bgnd-image: url("/assets/img/backgroundGradient.png");
+    --background-overlay : url("/assets/img/backgroundHandAndBoard.png");
+    --header-hx : #D91C1C;
+}
+
+body {
+    color: var(--default) ;
+    background-color: var(--body-background);
+}
+
+.logo p {
+    color: var(--logo-p)
+}
+
+.section h4 {
+    color: var(--section-h4);
+}
+
+.section .body p {
+    color: var(--body-p)
+}
+
+.section .kicker p {
+    color: var(--body-p)
+}
+
+header h1 {
+    color: var(--header-h1);
+}
+
+header .greeting p {
+    color: var(--header-greeting-p)
+    ;
+}
