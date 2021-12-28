@@ -328,7 +328,7 @@
 @media (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
     /* iPhones */
     body {
-        font-size: 20pt;
+        font-size: 80pt;
     }
 
     header .greeting {
