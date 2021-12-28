@@ -339,6 +339,10 @@
     .form .submit {
         grid-column: auto;
     }
+
+    .form p.testeroo {
+        color: purple;
+    }
 }
 
 @media (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
