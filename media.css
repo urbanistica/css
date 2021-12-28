@@ -340,7 +340,7 @@
         grid-column: auto;
     }
 
-    .form p.testeroo {
+    p.testeroo {
         color: purple;
     }
 }
