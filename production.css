@@ -1,0 +1,281 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+body {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+}
+
+.narrow, .medium, .wide {
+    display:none;
+}
+
+header {
+    position: relative;
+    background-image: var(--header-bgnd-image);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: right top;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0
+}
+
+#background_overlay {
+    position:absolute;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    background-image: var(--background-overlay);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+}
+
+header .logo {
+    background-image: url("/assets/img/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top; 
+    position: relative;
+}
+
+header .status, header .logo {
+    color: white;
+}
+
+header h4 {
+    color: white;
+    font-size: 3em;
+}
+
+.logo p {
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    padding-left:1em;
+    font-weight: 200;
+}
+
+header .greeting p {
+    position: absolute;
+    /* color: white; */
+    right: 0px;
+    padding: 4px;
+    padding-right: 1em;
+    font-weight: 300;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+header, .section, .listing {
+    grid-gap: 8px;
+    display: grid;
+    grid-auto-rows: minmax(20px, auto);
+}
+
+nav  {
+    /* padding-right: 3em; */
+    text-align: right;
+}
+
+nav button {
+    width: 100%;
+    max-width: 100px;
+}
+
+nav ul {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+}
+
+nav li {
+    list-style-type: none;
+    padding:none;
+    min-width: 100px;
+    margin: 0;
+}
+
+#button_bar {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(8, 1fr);
+    
+    /* grid-row : -1; */
+    /* text-align: right; */
+}
+
+.section .title {
+    min-width: 250px%;
+    /* grid-auto-rows: minmax(40px, auto); */
+}
+
+h3, h2, h1 {
+    /* background-color: var(--header-hx); */
+    font-weight:900;
+    color: var(--header-hx);
+    text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+         background-clip: text;
+}
+
+.section h4 {
+    color: white;
+    font-size: 2em;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+
+.cell {
+    position:relative
+}
+
+heading .status, heading .greeting{
+    padding-top: 0.5em;
+}
+
+heading .greeting {
+    text-align: right;
+}
+
+header .login, header .info {
+    min-height: 200px;
+}
+
+header .info div {
+    position: absolute;
+    bottom: 0px;
+}
+
+.section, .listing {
+    margin-top:8px;
+    margin-bottom: 10px;
+}
+
+.listing.header {
+    margin-top:2px;
+    margin-bottom: 5px;
+}
+
+.section .kicker p, .section .body p{
+    margin-top: 0px; 
+    margin-bottom: 0.5em;
+}
+
+.section .title {
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    padding: 0.4em;
+    margin-right: 2em;
+}
+
+.section .kicker {
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    /* padding: 0.4em; */
+    /* position: relative; */
+    align-items: center;
+    padding-left: 2em;
+}
+
+.section .kicker p {
+    padding-top: 2.5em;
+    display: grid;
+    font-style: italic;
+    font-weight: bold;
+    align-items: center;
+}
+
+.section .body p {
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.listing.header {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+}
+
+div.grid.listing {
+    padding-bottom: 8px;
+}
+
+.listing .datum {
+    color: rgba(255, 255, 255, 0.7)       
+}
+
+.listing .datum.strong {
+    color: rgba(255, 255, 255, 0.85);      
+    font-weight : bold;
+}
+
+.fineprint {
+    font-size: small
+}
+
+div.grid.listing:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#listingContainer.hide .complete {
+    display: none;
+}
+
+button {
+    font-size: 1em;
+    padding: 0.3em;
+}
+
+.form {
+    display: grid;
+    margin-left: 2em;
+    margin-right:2em;
+    font-weight: 300;
+    color : black;
+    gap: 8px;
+}
+
+.form p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form textarea {
+    width: 100%;
+    font-size: 0.5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.form .info {
+    width: 140%
+}
+
+.form input {
+    font-size: 1em;
+    min-height: 1.2em;
+}
+
+.form textarea {
+    font-size: 1em;
+}
+
+.form .submit {
+    width: 60%;
+    justify-self:right ;
+}
