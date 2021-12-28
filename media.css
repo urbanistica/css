@@ -323,6 +323,22 @@
     .form {
         grid-template-columns: 1fr;
     }
+
+    .form .info {
+        grid-column: auto;
+    }
+
+    .form .info textarea {
+        min-height: 12em;
+    }
+
+    .form .agree {
+        grid-column:auto;
+    }
+
+    .form .submit {
+        grid-column: auto;
+    }
 }
 
 @media (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
